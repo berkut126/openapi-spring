@@ -1,0 +1,41 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  text-align: center;
+}
+html{
+  font-size: 32px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.login{
+  font-size: x-large;
+}
+input{
+  font-size: x-large;
+  margin: 1rem 0;
+}
+input#submit{
+  width: 100%;
+  background: none;
+  border: 1px solid black;
+  border-bottom: 4px solid black;
+  cursor: pointer;
+}
+input#submit:hover{
+  background-color: aliceblue;
+}
+input#submit:focus{
+  background-color: aliceblue;
+  outline: none;
+}
+input#submit:active{
+  background-color: cornflowerblue;
+}
